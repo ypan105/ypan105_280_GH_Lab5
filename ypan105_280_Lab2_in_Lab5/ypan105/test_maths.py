@@ -68,7 +68,8 @@ class MathsTest(unittest.TestCase):
     
     def test_factorial(self):
         num = 3
-        self.assertEqual(num,6)
+        c = maths.factorial(num)
+        self.assertEqual(c,6)
         
 # This allows running the unit tests from the command line (python test_maths.py)
 if __name__ == '__main__':

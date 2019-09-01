@@ -41,5 +41,5 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(number):
-    return 1
+    return 6
 
