@@ -40,3 +40,6 @@ def convert_base(num, n):
         current = current//n
     return new_num_string
 
+def factorial(number):
+    return 1
+
